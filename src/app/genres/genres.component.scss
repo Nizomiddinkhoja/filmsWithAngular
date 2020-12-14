@@ -1,0 +1,136 @@
+
+.section-title.light {
+  color: #fff;
+}
+
+.section-title h6 {
+  width: 100%;
+  display: block;
+  font-size: 14px;
+  font-weight: 800;
+  letter-spacing: 2px;
+  opacity: 0.6;
+}
+
+.section-title h2 {
+  width: 100%;
+  display: block;
+  margin: 0;
+  font-size: 46px;
+  font-weight: 600;
+}
+
+.section-title {
+  margin: 50px;
+}
+
+
+.video-thumb {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 15px 0;
+}
+
+.video-thumb.light {
+  color: #fff;
+}
+
+.video-thumb.light .video-content .name a {
+  color: #fff;
+}
+
+.video-thumb .video-image {
+  width: 100%;
+  display: block;
+  position: relative;
+}
+
+.video-thumb .video-image:after {
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+  top: 0;
+  transition: all .35s ease-in-out;
+  opacity: 0;
+  background: black;
+
+}
+
+.video-thumb .video-content {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.video-thumb .video-content .range {
+  display: inline-block;
+  font-size: 13px;
+  margin-right: 6px;
+}
+
+.video-thumb .tags {
+  color: #e90451;
+  font-size: 13px;
+}
+
+.video-thumb .video-content .tags li {
+  display: inline-block;
+  margin-right: 10px;
+  padding: 0;
+  list-style: none;
+  color: #e90101;
+}
+
+.video-thumb .video-content .age {
+  margin-left: auto;
+  height: 20px;
+  line-height: 18px;
+  font-size: 12px;
+  padding: 0 4px;
+  border: 1px solid #fff;
+  opacity: 0.7;
+}
+
+.video-thumb .video-content .name {
+  width: 100%;
+  display: block;
+  font-size: 16px;
+  font-weight: 600;
+  margin-top: 5px;
+}
+
+.video-thumb:hover .video-image img {
+  opacity: 0.7;
+}
+
+.play-btn a {
+  height: 46px;
+  width: 46px;
+  line-height: 46px;
+  display: inline-block;
+  background: #fff;
+  border-radius: 50%;
+  text-align: center;
+  position: relative;
+  text-indent: -9999px;
+  bottom: -130px;
+  left: 60px;
+}
+
+.play-btn a:after {
+  content: "";
+  position: absolute;
+  left: calc(50% - 4px);
+  top: calc(50% - 8px);
+  border-style: solid;
+  border-width: 8px 0 8px 12px;
+  border-color: transparent transparent transparent #111111;
+}
+
+.category-content h3 a {
+  font-size: large;
+  color: #fff;
+}

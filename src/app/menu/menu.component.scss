@@ -1,0 +1,45 @@
+.body {
+  background-color: #343a40 !important;
+}
+
+.container {
+  max-width: 100%;
+}
+
+.wrapper {
+  padding-left: 15px;
+  padding-right: 15px;
+  max-width: 1178px;
+  margin: 0 auto;
+  position: relative;
+  display: flex;
+  margin-left: 150px;
+}
+
+.btn-toggle {
+  padding: 10px;
+  background-color: red;
+  border-radius: 10px;
+  color: #fff;
+}
+
+.btn-menu {
+  align-content: flex-start;
+  padding: 10px;
+  background-color: black;
+  border-radius: 10px;
+  color: #fff;
+  margin: 10px;
+
+  padding-bottom: 0;
+}
+
+.menu {
+  display: flex;
+}
+
+.active {
+  font-size: large;
+  text-transform: uppercase;
+  color: #fff;
+}
